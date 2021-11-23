@@ -13,13 +13,13 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "twig/twig": "^1.0",
+        "twig/twig": "^1.34.0 || ^2.4.0 || ^3.0.0",
         "slim/flash": "^0.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "1.*",
-        "phpunit/PHPUnit": "4.8.0",
-        "satooshi/php-coveralls": "dev-master",
+        "phpunit/phpunit": "4.8.0",
+        "satooshi/php-coveralls": "^1.0",
         "phpunit/phpcov": "2.*"
     },
     "autoload": {
